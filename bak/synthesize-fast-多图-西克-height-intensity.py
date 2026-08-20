@@ -339,7 +339,7 @@ def process_pair(depth_path: str, inten_path: str, out_dir: str,
 def main():
     p = argparse.ArgumentParser(
         description="批量 3D 高度图(_height) + 亮度图(_intensity) -> 3 通道训练图")
-    p.add_argument("--input", "-i", default=r"D:\E\github_zl\3D_image_synthesis_methods_master\0813CS\32-16-130",
+    p.add_argument("--input", "-i", default=r"D:\E\github_zl\3D_image_synthesis_methods_master\imgs\814-33",
                    help="输入文件夹（含 *_height.tiff 与 *_intensity.png）")
     p.add_argument("--output", "-o", default="./results-fast-hi",
                    help="输出文件夹")
